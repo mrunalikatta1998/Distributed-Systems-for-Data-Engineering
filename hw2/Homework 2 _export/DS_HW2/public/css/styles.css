@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;             /*Q1-center align all content*/  
+}
+
+h1, .heading, .books-table th {
+    background-color: #4CAF50;     /*Q2- keep background & text color for headers and table headers*/
+    color: white;                   /*Q2- keep white color for headers and table headers*/
+    padding: 15px;
+}
+
+.books-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;            /*Q4 - center align table text*/
+}
+
+.books-table th, .books-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;   /*q4 keep text inside table cells to center*/
+}
+
+.actions-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+button, input {
+    width: 250px;                  /*same width for buttons & text fields*/
+    padding: 12px 20px;
+    font-size: 16px;
+    margin: 10px;
+    border: 1px solid #ddd;        /*Q3 - borders for text fiekds*/
+}
+
+button {
+    background-color: #4CAF50;     /*Q2 - green background for buttons*/
+    color: white;
+    border: none;                  /*Q3 - remove border from buttons */
+    cursor: pointer;               /*pointer changed*/
+}
+
+button:hover {
+    background-color: orange;      /*Q3 - orange on hover*/
+}
